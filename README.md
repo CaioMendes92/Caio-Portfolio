@@ -34,6 +34,6 @@ The details of this solution is described in the project below.
 
 ## Data Science Projects:
 
-[Rossmann Store Sales](https://github.com/CaioMendes92/RossmannStoreSales)
+[Rossmann Store Sales](https://github.com/CaioMendes92/RossmannStoreSales) (Under Construction)
 
 Building a Machine Learning Model to the sales forecast for the next 6 weeks.
