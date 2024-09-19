@@ -1,30 +1,70 @@
-# Caio Portfolio
-The main objective of this data science personal project portfolio is to demonstrate my skills in solving business challenges through my knowledge and tools of Data Science.
+# Caio Portfólio
+## Boas Vindas
+Olá, seja bem-vindo(a) ao meu portfólio de projetos de Ciência de Dados.
+Nessa página, eu demonstro minhas habilidades de resolver problemas de negócio
+utilizando conceitos e ferramentas da Ciência de Dados, através de projetos com dados
+públicos.
+Você vai encontrar também: Minhas experiências profissionais, habilidades,
+ferramentas e conceitos envolvendo a Ciência de Dados.
+Sinta-se à vontade para entrar em contato através dos links no final da página.
 
 ![alt text](https://github.com/CaioMendes92/Caio-Portfolio/blob/main/Banner.jpg)
 
-## Caio Mendes
+## Sobre mim
 Data Scientist
 
-I have a PhD degree in physics and study Machine Learning since 2019 and have 1.5 year of professional experience as a data analyst. For 1.3 year in a digital marketing company and 2 months in a outsourced company and I am allocated in a unit of SESI (Social Service of Industry) in Maceió/Alagoas.
+Meu nome é Caio Mendes e tenho 32 anos. Sou formado em Física e tenho doutorado na área de computação quântica pela Universidade Federal de Alagoas. 
+Atualmente, trabalho na empresa AI Solutions, onde sou Cientista de Dados. Trabalho em diversos projetos diferentes, dentre eles verificar um grande conjunto de dados para encontrar possíveis (ou já realizadas) fraudes dentro dos serviço público. Para isso, desenvolvo pipelines no Apache Airflow, crio consultas em SQL utilizando Python para webscrapping e análise de dados. Utilizo o DBT para realizar limpeza dos dados e criar testes automatizados de forma a assegurar a qualidade dos dados. Crio dashboards para o acompanhamento dos resultados e os apresento para o líder não técnico.
 
-I have mastery of all stages of developing a business solution using the concepts and tools of Data Science, from understanding the business to publishing the model in production using Clouds.
+Anteriormente, trabalhei na empresa Mesha Tecnologia, onde fui Analista de Dados. A mesha é uma empresa que terceiriza funcionários, fiquei alocado no SESI do estado de Alagoas e tive como função Conectar diversas fontes de dados, principalmente em ambientes cloud e, utilizando queries em SQL, obter dados e transforma-los em insights de negócio a partir do desenvolvimento de dashboards em Power BI. Gerar relatórios semanais com os principais resultados da empresa, se baseando nos dados e, utilizando de storytelling, passar os resultados para as equipes de outras áreas.
+Antes disso, trabalhei como programador em uma empresa de marketing digital.
+Trabalhei na criação e organização de banco de dados, sendo utilizado um banco não relacional (MongoDB).
+Além disso, fui responsável por geração de insights a partir de dados e criação de dashboards usando Power BI.
 
-I have already developed solutions for important business problems such as sales forecast for the next 6 weeks.
+Estou buscando sempre me aprimorar e aprender cada vez mais para melhorar a tomada de decisão das empresas por onde passo.
 
-The details of this solution is described in the project below.
+## Habilidades
 
-**Analytical Tools:**
+### Linguagens de Programação e Banco de Dados
+- Python e PySpark com foco em análise de dados.
+- SQL para extração de dados
+- Banco de Dados SQLite, Postres, MySQL, OracleDB e MongoDB.
 
-**Data Collect and Storage:** SQL, Postgres, and MongoDB.
+### Estatística e Machine Learning
+- Estatística descritiva
+- Algoritmos de Regressão, Classificação, Clusterização
+- Técnicas de balanceamento dos dados, seleção de atributos e redução de dimensionalidade
 
-**Data Processing and Analysis**: Python.
+### Métricas de performance dos algoritmos
+- RMSE
+- MAE
+- MAPE
+- Confusion Matrix
+- AUC/ROC
+- Accuracy
 
-**Development**: Git and Linux.
+### Pacotes de Machine Learning
+- Sklearn
+- Scipy
 
-**Data Vizualization**: DataStudio and Power BI.
+### Visualização de Dados
+- Matplotlib
+- Seaborn
+- Plotly
+- PowerBI
+- Data Studio
 
-**Machine Learning Modeling**: Regression, Learn to Rank, Classification, Clustering.
+### Engenharia
+- Airflow
+- Docker
+- Git
+- Github
+- Gitlab
+- Virtual Environment
+- Streamlit
+- Flask
+- Python API's
+- Cloud Heroku
 
 **Links**:
     
@@ -32,20 +72,52 @@ The details of this solution is described in the project below.
 &nbsp;
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/CaioMendes92);
 
-## Data Science Projects:
 
-[Rossmann Store Sales](https://github.com/CaioMendes92/RossmannStoreSales)
+## Projetos de Data Science:
 
-I used Python, data analysis and machine learning techniques to find a solution that would predict each store's prices over the next six weeks. And the result of this solution, if implemented, would be over $200MM dollars in revenue.
+### Detecção de Fraude para Empresas de Cartões de Crédito (**EM CONSTRUÇÃO**)
+Estou desenvolvendo um projeto de detecção de fraudes utilizando Machine Learning. Os dados são armazenados em um banco MySQL e passam por um pipeline de padronização, limpeza e feature engineering, com camadas Bronze, Silver e Gold. Na etapa final (Gold), a solução de fraude realiza dois testes: o primeiro verifica se o cartão de crédito já foi identificado como fraudulento anteriormente; caso positivo, a transação é marcada como fraude. Caso contrário, a compra é avaliada por um modelo de Machine Learning previamente treinado. O processo é orquestrado via Airflow, e os resultados são armazenados para re-treinos futuros do modelo.
 
-[Health Insurance Cross Sell](https://github.com/CaioMendes92/health_insurance_cross_sell)
+### Acompanhamento Mensal das Transferências Obrigatórias da União Utilizando BS4 + Airflow
+Utilizando o Beatifulsoup, foi realizado a raspagem dos dados referente as
+transferências obrigatórias da União no estado de Alagoas no período de 2017
+até 2022. Com o intuito de manter os dados atualizados, foi utilizado o Apache
+Airflow para orquestrar e baixar mensalmente os dados.
 
-I used Python, data analysis and Machine Learning techniques to find a solution that ranked the best customers to offer a health insurance service.
+[Transferencias Obrigatorias da Uniao](https://github.com/CaioMendes92/Acompanhamento-Mensal-das-Transfer-ncias-Obrigat-rias-da-Uni-o-utilizando-BS4-Airflow)
+
+### Criação de um dashboard para análise de dados dos alunos que realizaram a prova do ENEM 2020.
+Utilizando o Power BI, foi possível construir um Dashboard para acompanhamento
+das notas e análises de dados referente aos alunos do ENEM 2020.
 
 [Power BI analysis of ENEM candidates](https://github.com/CaioMendes92/Teste-Analista-de-Dados-MESHA)
 
-I used Power BI to create a dashboard with ENEM candidates and your pontuations.
+### Clusterização de clientes de um e-commerce com o intuito de criar um programa de fidelidade com os melhores clientes
+Utilizando técnicas de Machine Learning e análise de dados, foi possível dividir
+os clientes de um e-commerce em grupos, de forma que se crie um grupo para o
+programa de fidelidade e a equipe de Marketing consiga acompanhar e gerar
+receitas de formas direcionadas para cada grupo.
+Foi utilizado algoritmos como o KMeans, Hierarchical Clustering, Gaussian
+Mixture Model e DBSCAN para encontrar os melhores resultados dos clusters.
 
 [Customer Segmentation](https://github.com/CaioMendes92/customer_segmentation)
 
-I used Python, data analysis and Machine Learning techniques to find a solution that meets customer patterns and generate a cluster whose in-store spend generated 50% revenue. Each of the clusters generated was developed a strategy by the marketing team to leverage the company's sales.
+### Criação de um ranking com clientes com maior propensão de adquirir um seguro saúde.
+Utilizando Python, análise de dados e técnicas de classificação, fui capaz de
+gerar um ranking, classificando clientes com maior propensão de aceitar um
+seguro saúde. O projeto tinha como intuito a redução de custos nas ligações
+para possíveis novos clientes.
+Foi utilizado algoritmos como XGBoost, AdaBoost, Randon Forest para encontrar
+o melhor ranking
+
+[Health Insurance Cross Sell](https://github.com/CaioMendes92/health_insurance_cross_sell)
+
+### Previção de vendas para as próximas seis semanas, usando o algoritmo de regressão XGboost
+[Rossmann Store Sales](https://github.com/CaioMendes92/RossmannStoreSales)
+
+Eu usei Python, análise de dados e técnicas de Machine Learning para encontrar
+uma solução que prevesse os preços de cada loja nas próximas seis semanas. E o
+resultado dessa solução, caso fosse implementada, seria de mais de $ 200MM de
+dólares de receita.
+Foi utilizado algoritmos como XGBoost, Regressão Linear, Lasso e Random Forest
+para encontrar o melhor resultado
