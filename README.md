@@ -75,8 +75,16 @@ Estou buscando sempre me aprimorar e aprender cada vez mais para melhorar a toma
 
 ## Projetos de Data Science:
 
-### Detecção de Fraude para Empresas de Cartões de Crédito (**EM CONSTRUÇÃO**)
-Estou desenvolvendo um projeto de detecção de fraudes utilizando Machine Learning. Os dados são armazenados em um banco MySQL e passam por um pipeline de padronização, limpeza e feature engineering, com camadas Bronze, Silver e Gold. Na etapa final (Gold), a solução de fraude realiza dois testes: o primeiro verifica se o cartão de crédito já foi identificado como fraudulento anteriormente; caso positivo, a transação é marcada como fraude. Caso contrário, a compra é avaliada por um modelo de Machine Learning previamente treinado. O processo é orquestrado via Airflow, e os resultados são armazenados para re-treinos futuros do modelo.
+### Detecção de Fraude para Em transações (**EM CONSTRUÇÃO**)
+Estou desenvolvendo um projeto de detecção de fraudes utilizando Machine Learning. Os dados são armazenados em um banco de dados MySQL e passam por um pipeline de padronização, limpeza e feature engineering, seguindo a estrutura de camadas Bronze, Silver e Gold.
+
+Na etapa final (Gold), os dados são consolidados em uma tabela otimizada para a construção do modelo de Machine Learning. Após o treinamento, o modelo será implantado em produção, onde irá classificar novas transações como fraudulentas ou legítimas em tempo real.
+
+O processo é orquestrado via Airflow, garantindo automação e escalabilidade. Além disso, os resultados das previsões são armazenados para possibilitar re-treinos periódicos, garantindo a adaptação do modelo a novos padrões de fraude.
+
+Até o momento, o modelo conseguiu reduzir em aproximadamente 70% os prejuízos causados por fraudes bancárias, resultando em uma economia de R$ 132.594,33.
+
+[Fraud Detection](https://github.com/CaioMendes92/fraud_detection)
 
 ### Clusterização de clientes de um e-commerce com o intuito de criar um programa de fidelidade com os melhores clientes
 Utilizando técnicas de Machine Learning e análise de dados, foi possível dividir
