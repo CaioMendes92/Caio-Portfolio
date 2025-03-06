@@ -78,28 +78,6 @@ Estou buscando sempre me aprimorar e aprender cada vez mais para melhorar a toma
 ### Detecção de Fraude para Empresas de Cartões de Crédito (**EM CONSTRUÇÃO**)
 Estou desenvolvendo um projeto de detecção de fraudes utilizando Machine Learning. Os dados são armazenados em um banco MySQL e passam por um pipeline de padronização, limpeza e feature engineering, com camadas Bronze, Silver e Gold. Na etapa final (Gold), a solução de fraude realiza dois testes: o primeiro verifica se o cartão de crédito já foi identificado como fraudulento anteriormente; caso positivo, a transação é marcada como fraude. Caso contrário, a compra é avaliada por um modelo de Machine Learning previamente treinado. O processo é orquestrado via Airflow, e os resultados são armazenados para re-treinos futuros do modelo.
 
-### Acompanhamento Mensal das Transferências Obrigatórias da União Utilizando BS4 + Airflow
-Utilizando o Beatifulsoup, foi realizado a raspagem dos dados referente as
-transferências obrigatórias da União no estado de Alagoas no período de 2017
-até 2022. Com o intuito de manter os dados atualizados, foi utilizado o Apache
-Airflow para orquestrar e baixar mensalmente os dados.
-
-[Transferencias Obrigatorias da Uniao](https://github.com/CaioMendes92/Acompanhamento-Mensal-das-Transfer-ncias-Obrigat-rias-da-Uni-o-utilizando-BS4-Airflow)
-
-### Criação de um dashboard para análise de dados dos alunos que realizaram a prova do ENEM 2020.
-Utilizando o Power BI, foi possível construir um Dashboard para acompanhamento
-das notas e análises de dados referente aos alunos do ENEM 2020.
-
-[Power BI analysis of ENEM candidates](https://github.com/CaioMendes92/Teste-Analista-de-Dados-MESHA)
-
-### Clusterização de clientes de um e-commerce com o intuito de criar um programa de fidelidade com os melhores clientes
-Utilizando técnicas de Machine Learning e análise de dados, foi possível dividir
-os clientes de um e-commerce em grupos, de forma que se crie um grupo para o
-programa de fidelidade e a equipe de Marketing consiga acompanhar e gerar
-receitas de formas direcionadas para cada grupo.
-Foi utilizado algoritmos como o KMeans, Hierarchical Clustering, Gaussian
-Mixture Model e DBSCAN para encontrar os melhores resultados dos clusters.
-
 [Customer Segmentation](https://github.com/CaioMendes92/customer_segmentation)
 
 ### Criação de um ranking com clientes com maior propensão de adquirir um seguro saúde.
@@ -121,3 +99,26 @@ resultado dessa solução, caso fosse implementada, seria de mais de $ 200MM de
 dólares de receita.
 Foi utilizado algoritmos como XGBoost, Regressão Linear, Lasso e Random Forest
 para encontrar o melhor resultado
+
+## Projetos de Análise de Dados
+### Acompanhamento Mensal das Transferências Obrigatórias da União Utilizando BS4 + Airflow
+Utilizando o Beatifulsoup, foi realizado a raspagem dos dados referente as
+transferências obrigatórias da União no estado de Alagoas no período de 2017
+até 2022. Com o intuito de manter os dados atualizados, foi utilizado o Apache
+Airflow para orquestrar e baixar mensalmente os dados.
+
+[Transferencias Obrigatorias da Uniao](https://github.com/CaioMendes92/Acompanhamento-Mensal-das-Transfer-ncias-Obrigat-rias-da-Uni-o-utilizando-BS4-Airflow)
+
+### Criação de um dashboard para análise de dados dos alunos que realizaram a prova do ENEM 2020.
+Utilizando o Power BI, foi possível construir um Dashboard para acompanhamento
+das notas e análises de dados referente aos alunos do ENEM 2020.
+
+[Power BI analysis of ENEM candidates](https://github.com/CaioMendes92/Teste-Analista-de-Dados-MESHA)
+
+### Clusterização de clientes de um e-commerce com o intuito de criar um programa de fidelidade com os melhores clientes
+Utilizando técnicas de Machine Learning e análise de dados, foi possível dividir
+os clientes de um e-commerce em grupos, de forma que se crie um grupo para o
+programa de fidelidade e a equipe de Marketing consiga acompanhar e gerar
+receitas de formas direcionadas para cada grupo.
+Foi utilizado algoritmos como o KMeans, Hierarchical Clustering, Gaussian
+Mixture Model e DBSCAN para encontrar os melhores resultados dos clusters.
