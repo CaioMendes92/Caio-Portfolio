@@ -78,6 +78,14 @@ Estou buscando sempre me aprimorar e aprender cada vez mais para melhorar a toma
 ### Detecção de Fraude para Empresas de Cartões de Crédito (**EM CONSTRUÇÃO**)
 Estou desenvolvendo um projeto de detecção de fraudes utilizando Machine Learning. Os dados são armazenados em um banco MySQL e passam por um pipeline de padronização, limpeza e feature engineering, com camadas Bronze, Silver e Gold. Na etapa final (Gold), a solução de fraude realiza dois testes: o primeiro verifica se o cartão de crédito já foi identificado como fraudulento anteriormente; caso positivo, a transação é marcada como fraude. Caso contrário, a compra é avaliada por um modelo de Machine Learning previamente treinado. O processo é orquestrado via Airflow, e os resultados são armazenados para re-treinos futuros do modelo.
 
+### Clusterização de clientes de um e-commerce com o intuito de criar um programa de fidelidade com os melhores clientes
+Utilizando técnicas de Machine Learning e análise de dados, foi possível dividir
+os clientes de um e-commerce em grupos, de forma que se crie um grupo para o
+programa de fidelidade e a equipe de Marketing consiga acompanhar e gerar
+receitas de formas direcionadas para cada grupo.
+Foi utilizado algoritmos como o KMeans, Hierarchical Clustering, Gaussian
+Mixture Model e DBSCAN para encontrar os melhores resultados dos clusters.
+
 [Customer Segmentation](https://github.com/CaioMendes92/customer_segmentation)
 
 ### Criação de um ranking com clientes com maior propensão de adquirir um seguro saúde.
@@ -115,10 +123,4 @@ das notas e análises de dados referente aos alunos do ENEM 2020.
 
 [Power BI analysis of ENEM candidates](https://github.com/CaioMendes92/Teste-Analista-de-Dados-MESHA)
 
-### Clusterização de clientes de um e-commerce com o intuito de criar um programa de fidelidade com os melhores clientes
-Utilizando técnicas de Machine Learning e análise de dados, foi possível dividir
-os clientes de um e-commerce em grupos, de forma que se crie um grupo para o
-programa de fidelidade e a equipe de Marketing consiga acompanhar e gerar
-receitas de formas direcionadas para cada grupo.
-Foi utilizado algoritmos como o KMeans, Hierarchical Clustering, Gaussian
-Mixture Model e DBSCAN para encontrar os melhores resultados dos clusters.
+
