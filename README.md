@@ -76,13 +76,13 @@ Estou buscando sempre me aprimorar e aprender cada vez mais para melhorar a toma
 ## Projetos de Data Science:
 
 ### Detecção de Fraude para Em transações (**EM CONSTRUÇÃO**)
-Estou desenvolvendo um projeto de detecção de fraudes utilizando Machine Learning. Os dados são armazenados em um banco de dados MySQL e passam por um pipeline de padronização, limpeza e feature engineering, seguindo a estrutura de camadas Bronze, Silver e Gold.
+Desenvolvimento de uma solução completa de machine learning para detecção de fraudes em transações com cartão de crédito realizadas exclusivamente em terminais físicos. O projeto utiliza um pipeline estruturado com a metodologia CRISP-DM, desde a ingestão e tratamento de dados até a modelagem e avaliação de impacto financeiro.
 
-Na etapa final (Gold), os dados são consolidados em uma tabela otimizada para a construção do modelo de Machine Learning. Após o treinamento, o modelo será implantado em produção, onde irá classificar novas transações como fraudulentas ou legítimas em tempo real.
+A etapa de engenharia de features contempla variáveis temporais, comportamentais, espaciais e estatísticas agregadas por janelas de tempo (rolling windows). As variáveis são documentadas e versionadas em um feature store com controle de ciclo de vida. O modelo final — baseado em LightGBM — apresenta desempenho sólido com AUC-ROC de 0.72, F1-score de 0.50, precision acima de 92% e recall próximo de 35%.
 
-O processo é orquestrado via Airflow, garantindo automação e escalabilidade. Além disso, os resultados das previsões são armazenados para possibilitar re-treinos periódicos, garantindo a adaptação do modelo a novos padrões de fraude.
+Simulações demonstram que, caso implementado, o modelo reduziria os prejuízos por fraude de R$ 411.671,78 para R$ 94.039,41, representando uma economia de 77%.
 
-Até o momento, o modelo conseguiu reduzir em aproximadamente 70% os prejuízos causados por fraudes bancárias, resultando em uma economia de R$ 132.594,33.
+Próximos passos incluem a construção de testes unitários, deploy do modelo com API, orquestração via Airflow e integração com a nuvem (AWS).
 
 [Fraud Detection](https://github.com/CaioMendes92/fraud_detection)
 
