@@ -75,7 +75,7 @@ Estou buscando sempre me aprimorar e aprender cada vez mais para melhorar a toma
 
 ## Projetos de Data Science:
 
-### Detecção de Fraude para Em transações (**EM CONSTRUÇÃO**)
+### Detecção de Fraudes em Transações com Cartão Presencial via ML  (**EM CONSTRUÇÃO**)
 Desenvolvimento de uma solução completa de machine learning para detecção de fraudes em transações com cartão de crédito realizadas exclusivamente em terminais físicos. O projeto utiliza um pipeline estruturado com a metodologia CRISP-DM, desde a ingestão e tratamento de dados até a modelagem e avaliação de impacto financeiro.
 
 A etapa de engenharia de features contempla variáveis temporais, comportamentais, espaciais e estatísticas agregadas por janelas de tempo (rolling windows). As variáveis são documentadas e versionadas em um feature store com controle de ciclo de vida. O modelo final — baseado em LightGBM — apresenta desempenho sólido com AUC-ROC de 0.72, F1-score de 0.50, precision acima de 92% e recall próximo de 35%.
