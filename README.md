@@ -8,8 +8,6 @@ Você vai encontrar também: Minhas experiências profissionais, habilidades,
 ferramentas e conceitos envolvendo a Ciência de Dados.
 Sinta-se à vontade para entrar em contato através dos links no final da página.
 
-![alt text](https://github.com/CaioMendes92/Caio-Portfolio/blob/main/Banner.jpg)
-
 ## Sobre mim
 Data Scientist
 
